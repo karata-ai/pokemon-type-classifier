@@ -1,48 +1,4 @@
-% Pokemons are something which fascinated me every single time.  Who would believe that a 6 year old kid used to be late to school almost everyday because of watching those extra minutes of the Pokemon episode. Years later, that kid is still deep inside me fantasizing about the Pokemon world.
-% About the Data
-% The dataset contains the details of all Pokemons from Generation 1 to Generation 8.
-% It describes the different attributes of Pokemons like Type, HP, Attack power, Defense power etc. for 1045 unique Pokemons.
-% Column details
-%
-% Pokedex No. - pokedex number of the pokemon
-% Name - name of the pokemon
-% Type - type of the pokemon
-% Every pokemon belongs to atleast one type and atmost two types.
-% Other Type - the other type of the pokemon, if any.
-% The value of the column is NaN if the pokemon belongs to only one type.
-% HP - hit points  of the pokemon
-% Attack - attack power  of the pokemon
-% Defense - defense power  of the pokemon
-% Special Attack - special attack power  of the pokemon
-% Special Defense - special defense power  of the pokemon
-% Speed - speed of the pokemon
-% Total - total power of the pokemon (sum of HP, Attack, Defense, Special Attack, Special Defense, Speed)
-% Generation - generation to which the pokemon belongs
-% Legendary - whether the pokemon is legendary or not
-% The pokemon is Legendary if the value of the column is 1
-% The pokemon is Non-Legendary if the value of the column is 0
-%
-% Inspiration
-% The Pokemon with stats dataset posted by Alberto Barradas was the main inspiration for this dataset.
-% Along with all the pokemons that were listed in that dataset, this dataset includes all the new pokemons that were added in all Generations including Generation 8.
-% The data was scraped from Complete Pokemon Pokedex using the requests library and parsed using Beautiful Soup.
-@RELATION Pokemon-(Generation-1---Generation-8)
-
-@ATTRIBUTE Pokedex_No. INTEGER
-@ATTRIBUTE Name STRING
-@ATTRIBUTE Type STRING
-@ATTRIBUTE Other_Type STRING
-@ATTRIBUTE HP INTEGER
-@ATTRIBUTE Attack INTEGER
-@ATTRIBUTE Defense INTEGER
-@ATTRIBUTE Special_Attack INTEGER
-@ATTRIBUTE Special_Defense INTEGER
-@ATTRIBUTE Speed INTEGER
-@ATTRIBUTE Total INTEGER
-@ATTRIBUTE Generation INTEGER
-@ATTRIBUTE Legendary INTEGER
-
-@DATA
+Pokedex_No,Name,Type,Other_Type,HP,Attack,Defense,Special_Attack,Special_Defense,Speed,Total,Generation,Legendary
 1,Bulbasaur,Grass,Poison,45,49,49,65,65,45,318,1,0
 2,Ivysaur,Grass,Poison,60,62,63,80,80,60,405,1,0
 3,Venusaur,Grass,Poison,80,82,83,100,100,80,525,1,0
