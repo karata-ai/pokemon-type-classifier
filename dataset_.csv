@@ -1,4 +1,4 @@
-Pokedex_No,Name,Type 1,Other_Type,HP,Attack,Defense,Special_Attack,Special_Defense,Speed,Total,Generation,Legendary
+Pokedex_No,Name,Type 1,Other_Type,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Total,Generation,Legendary
 1,Bulbasaur,Grass,Poison,45,49,49,65,65,45,318,1,0
 2,Ivysaur,Grass,Poison,60,62,63,80,80,60,405,1,0
 3,Venusaur,Grass,Poison,80,82,83,100,100,80,525,1,0
