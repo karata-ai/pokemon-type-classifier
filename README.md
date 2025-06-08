@@ -21,7 +21,9 @@ The dataset used comes from a Pokémon CSV file that includes stats like:
 - Defense
 - Sp. Atk
 - Sp. Def
-- Speed  
+- Speed
+- Total
+- Legendary (0 and 1)
 as well as each Pokémon’s `Type 1`.
 
 Before training the models, the data is cleaned to:
@@ -53,6 +55,6 @@ Here’s a general overview of what was observed:
 ## How to Run
 
 1. Clone the repository or download the files.
-2. Make sure you have Python installed with the following libraries: pandas ; scikit-learn
+2. Make sure you have Python installed with the following libraries: pandas ; scikit-learn ; os
 3. Place the `pokemon_classifier.py` and the dataset CSV file in the same directory.
 4. Run the script using your preferred IDE:
